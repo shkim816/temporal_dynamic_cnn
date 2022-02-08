@@ -33,7 +33,7 @@ We used VoxCeleb1 & 2 dataset in this paper. You can download the dataset by ref
 ## Training
 You can train and save model in `exps` folder by running:
 ```shell
-python ./trainSpeakerNet.py --model TDy_ResNet34_half --log_input True --encoder_type AVG --trainfunc softmaxproto --save_path exps/TDY_CNN_ResNet34 --nPerSpeaker 2 --batch_size 400
+python trainSpeakerNet.py --model TDy_ResNet34_half --log_input True --encoder_type AVG --trainfunc softmaxproto --save_path exps/TDY_CNN_ResNet34 --nPerSpeaker 2 --batch_size 400
 ```
 
 This implementation also provides accelerating training with distributed training and mixed precision training.
@@ -57,11 +57,11 @@ TDY-ResNet-34(×0.5)  | 51.9M | 1.48 |   0.118   |
 
 
 ## Pretrained models
-There are pretrained models in folder 'pretrained_model'.
+There are pretrained models in folder `pretrained_model`.
 
 For example, you can check **1.4786 of EER** by running following script using TDY-ResNet-34(×0.5).
 ```shell
-python ./trainSpeakerNet.py --eval --model TDy_ResNet34_half --log_input True --encoder_type AVG --trainfunc softmaxproto --save_path exps/test --eval_frames 400 --initial_model pretrained_model/pretrained_TDy_ResNet34_half.model
+python trainSpeakerNet.py --eval --model TDy_ResNet34_half --log_input True --encoder_type AVG --trainfunc softmaxproto --save_path exps/test --eval_frames 400 --initial_model pretrained_model/pretrained_TDy_ResNet34_half.model
 ```
 
 ## Citation
