@@ -58,7 +58,7 @@ There are pretrained models in folder 'pretrained_model'.
 
 For example, you can check **1.4786 of EER** by running following script using TDY-ResNet-34(×0.5).
 ```shell
-python ./trainSpeakerNet.py --eval --model TDy_ResNet34_half --log_input True --encoder_type AVG --trainfunc softmaxproto --save_path exps/test --eval_frames 400 --initial_model pretrained_TDy_ResNet34_half.model
+python ./trainSpeakerNet.py --eval --model TDy_ResNet34_half --log_input True --encoder_type AVG --trainfunc softmaxproto --save_path exps/test --eval_frames 400 --initial_model pretrained_model/pretrained_TDy_ResNet34_half.model
 ```
 
 ## Citation
