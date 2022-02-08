@@ -48,7 +48,7 @@ TDY-VGG-M            | 71.2M |   3.04   |   0.237   |
 TDY-ResNet-34(×0.25) | 13.3M | 1.58 |   0.116   |
 TDY-ResNet-34(×0.5)  | 51.9M | 1.48 |   0.118   |
 
-<img src="./pretrained_model/embedding_results.png" width="400">
+<img src="./pretrained_model/embedding_results.png" width="600">
 
 - This result is low-dimensional t-SNE projection of frame-level speaker embed-dings of MHRM0 and FDAS1 using (a) baseline model ResNet-34(×0.25) and (b) TDY-ResNet-34(×0.25). Left column represents embeddings for different speakers, and right column represents em-beddings for different phoneme classes.
 
