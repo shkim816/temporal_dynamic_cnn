@@ -35,7 +35,10 @@ You can train and save model in `exps` folder by running:
 ```shell
 python ./trainSpeakerNet.py --model TDy_ResNet34_half --log_input True --encoder_type AVG --trainfunc softmaxproto --save_path exps/TDY_CNN_ResNet34 --nPerSpeaker 2 --batch_size 400
 ```
-You need to adjust the training parameters in yaml before training.
+
+This implementation also provides accelerating training with distributed training and mixed precision training.
+- Use `--distributed` flag to enable distributed training and `--mixedprec` flag to enable mixed precision training.
+  - GPU indices should be set before training : `os.environ['CUDA_VISIBLE_DEVICES'] ='0,1,2,3'` in `trainSpeakernet.py`.
 
 ### Results:
 
