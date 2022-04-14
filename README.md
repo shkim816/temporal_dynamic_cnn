@@ -57,7 +57,18 @@ TDY-ResNet-34(×0.5)  | 51.9M | 1.48 |   0.118   |
 
 
 ## Pretrained models
-There are pretrained models in folder `pretrained_model`.
+~~There are pretrained models in folder `pretrained_model`.~~
+
+You can download pretrained models as follows links:
+
+- TDy_ResNet34_half <br>
+<https://kaistackr-my.sharepoint.com/:u:/g/personal/tjdgnkim_kaist_ac_kr/EXdSnNnfZYVPmSoH-0Le7nMBpvyBwMXEjb_P-Br7p8Pi1A?e=qIFLHp>
+
+- TDy_ResNet34_quarter <br>
+<https://kaistackr-my.sharepoint.com/:u:/g/personal/tjdgnkim_kaist_ac_kr/EQ27xt3ILoNFronCmZ2kuRkBlsDfDe3Pxb5Q4uDd7MDnEA?e=HEEHwu>
+
+- TDy_VGG <br>
+<https://kaistackr-my.sharepoint.com/:u:/g/personal/tjdgnkim_kaist_ac_kr/EQ7XXHBlRdBNrRdez5z8rSkBYEP69sax9NiypSdm_LDbOA?e=W3WGsv>
 
 For example, you can check **1.4786 of EER** by running following script using TDY-ResNet-34(×0.5).
 ```shell
