@@ -4,7 +4,7 @@ Official implementation of <br>
  - **Temporal Dynamic Convolutional Neural Network for Text-Independent Speaker Verification and Phonemetic Analysis** <br>
 by Seong-Hu Kim, Hyeonuk Nam, Yong-Hwa Park @ Human Lab, Mechanical Engineering Department, KAIST<br>
 [![arXiv](https://img.shields.io/badge/arXiv-2110.03213-brightgreen)](https://arxiv.org/abs/2110.03213) 
-[![ICASSP](https://img.shields.io/badge/ICASSP-2022-orange)](https://ieeexplore.ieee.org/abstract/document/9747421) <br>
+[![ICASSP](https://img.shields.io/badge/ICASSP2022-10.1109-orange)](https://ieeexplore.ieee.org/abstract/document/9747421) <br>
 
 <br> 
 
@@ -80,14 +80,15 @@ python trainSpeakerNet.py --eval --model TDy_ResNet34_half --log_input True --en
 
 ## Citation
 ```bib
-@inproceedings{kim2022temporal,
-  title={Temporal Dynamic Convolutional Neural Network for Text-Independent Speaker Verification and Phonemic Analysis},
+@INPROCEEDINGS{9747421,
   author={Kim, Seong-Hu and Nam, Hyeonuk and Park, Yong-Hwa},
-  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={6742--6746},
+  booktitle={ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Temporal Dynamic Convolutional Neural Network for Text-Independent Speaker Verification and Phonemic Analysis}, 
   year={2022},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={6742-6746},
+  doi={10.1109/ICASSP43922.2022.9747421}}
 ```
 
 Please contact Seong-Hu Kim at seonghu.kim@kaist.ac.kr for any query.
