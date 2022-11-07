@@ -45,7 +45,7 @@ This implementation also provides accelerating training with distributed trainin
 
 ### Results:
 
-Network              | #Parm |  EER (%) | C_det (%) |
+Network              | #Parm |  EER (%) | C_det |
 ---------------------|:-----:|:--------:|:---------:|
 TDY-VGG-M            | 71.2M |   3.04   |   0.237   |
 TDY-ResNet-34(×0.25) | 13.3M | 1.58 |   0.116   |
